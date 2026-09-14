@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Monitor de Processos — suporte</title>
+<meta name="description" content="Suporte do aplicativo Monitor de Processos: acompanhamento de publicações do DJEN e controle de prazos processuais.">
+<style>
+  :root {
+    --fundo: #ffffff; --texto: #1b1d1f; --suave: #5a6169;
+    --linha: #e3e6e9; --destaque: #0f4c75; --caixa: #f4f6f8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --fundo: #16181a; --texto: #e9ecef; --suave: #a3abb3;
+      --linha: #2c3034; --destaque: #7fb3d5; --caixa: #1f2225;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--fundo); color: var(--texto);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 42rem; margin: 0 auto; padding: 3.5rem 1.25rem 5rem; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 .3rem; letter-spacing: -.015em; }
+  .sub { color: var(--suave); margin: 0 0 2.5rem; font-size: 1.05rem; }
+  h2 {
+    font-size: 1.1rem; margin: 2.4rem 0 .7rem; padding-top: 1.3rem;
+    border-top: 1px solid var(--linha);
+  }
+  p, li { margin: 0 0 .9rem; }
+  ul { padding-left: 1.3rem; }
+  li { margin-bottom: .45rem; }
+  a { color: var(--destaque); }
+  .contato {
+    background: var(--caixa); border-left: 3px solid var(--destaque);
+    border-radius: 0 8px 8px 0; padding: 1.1rem 1.3rem; margin: 1rem 0 0;
+  }
+  .contato p { margin: 0; }
+  .aviso {
+    border: 1px solid var(--linha); border-radius: 8px;
+    padding: 1.1rem 1.3rem; margin: 1rem 0 0;
+  }
+  .aviso p:last-child { margin-bottom: 0; }
+  footer {
+    margin-top: 3.5rem; padding-top: 1.3rem; border-top: 1px solid var(--linha);
+    color: var(--suave); font-size: .9rem;
+  }
+</style>
+</head>
+<body>
+<main>
+
+  <h1>Monitor de Processos</h1>
+  <p class="sub">Acompanhe as publicações dos seus processos e organize os seus prazos.</p>
+
+  <p>O aplicativo consulta o <strong>DJEN — Diário de Justiça Eletrônico Nacional</strong>
+  (<code>comunica.pje.jus.br</code>), o serviço público e gratuito do Conselho Nacional de Justiça,
+  a partir das OAB que você cadastrar. Das publicações encontradas ele identifica o prazo e registra
+  na agenda.</p>
+
+  <p>Não há cadastro, login nem mensalidade. Tudo o que você registra fica apenas no seu aparelho.</p>
+
+  <h2>Suporte</h2>
+  <p>Dúvidas, problemas ou sugestões:</p>
+  <div class="contato">
+    <p><a href="mailto:monitordeprocessos@gmail.com">monitordeprocessos@gmail.com</a></p>
+  </div>
+
+  <h2>Confira sempre os prazos</h2>
+  <div class="aviso">
+    <p>O prazo é calculado no próprio aparelho, por regra fixa: quando a publicação menciona um
+    número de dias, o aplicativo usa esse número; quando ela fala em “prazo legal” sem dizer quantos
+    dias, aplica os 5 dias úteis do art. 218, §3º do CPC. A contagem considera dias úteis, feriados
+    nacionais e feriados estaduais.</p>
+    <p><strong>Quando a publicação não menciona prazo, ou menciona mais de um, o aplicativo não
+    registra prazo algum</strong> — ela aparece na lista, mas sem data na agenda, e precisa ser
+    conferida por você.</p>
+    <p>O cálculo não considera suspensão de expediente do tribunal ou da comarca, feriados
+    municipais, recesso forense local nem qualquer particularidade do seu processo.</p>
+    <p>É ferramenta de apoio e <strong>não substitui a conferência do prazo nos autos e no sistema
+    do tribunal</strong>. A responsabilidade pelo controle dos prazos é exclusivamente do advogado.</p>
+  </div>
+
+  <h2>Privacidade</h2>
+  <p>O aplicativo exibe anúncios e não envia a ninguém os seus processos, clientes ou prazos.
+  Os detalhes estão na <a href="privacidade/">política de privacidade</a>.</p>
+
+  <footer>
+    Aplicativo independente, sem qualquer vínculo com o Conselho Nacional de Justiça, com tribunais
+    ou com a Ordem dos Advogados do Brasil.
+  </footer>
+
+</main>
+</body>
+</html>
