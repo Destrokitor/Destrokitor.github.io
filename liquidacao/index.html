@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Liquidação — suporte</title>
+<meta name="description" content="Suporte do aplicativo Liquidação: cálculo de liquidação de sentença, correção monetária, juros e astreintes, com memória de cálculo em PDF.">
+<style>
+  :root {
+    --fundo: #ffffff;
+    --texto: #1b1d1f;
+    --suave: #5a6169;
+    --linha: #e3e6e9;
+    --destaque: #0f4c75;
+    --caixa: #f4f6f8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --fundo: #16181a;
+      --texto: #e9ecef;
+      --suave: #a3abb3;
+      --linha: #2c3034;
+      --destaque: #7fb3d5;
+      --caixa: #1f2225;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--fundo);
+    color: var(--texto);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 46rem; margin: 0 auto; padding: 3rem 1.25rem 5rem; }
+  h1 { font-size: 1.9rem; line-height: 1.25; margin: 0 0 .4rem; letter-spacing: -.01em; }
+  h2 {
+    font-size: 1.15rem; margin: 2.6rem 0 .8rem; padding-top: 1.4rem;
+    border-top: 1px solid var(--linha); letter-spacing: -.005em;
+  }
+  h2:first-of-type { border-top: 0; padding-top: 0; }
+  p, li { margin: 0 0 1rem; }
+  ul { padding-left: 1.3rem; margin: 0 0 1rem; }
+  li { margin-bottom: .5rem; }
+  strong { font-weight: 650; }
+  code {
+    background: var(--caixa); padding: .12em .4em; border-radius: 4px;
+    font: .9em/1 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  }
+  a { color: var(--destaque); }
+  .data { color: var(--suave); font-size: .95rem; margin-bottom: 2.4rem; }
+  .resumo {
+    background: var(--caixa); border-left: 3px solid var(--destaque);
+    border-radius: 0 8px 8px 0; padding: 1.1rem 1.3rem; margin: 0 0 1rem;
+  }
+  .resumo p:last-child { margin-bottom: 0; }
+  footer {
+    margin-top: 3.5rem; padding-top: 1.4rem; border-top: 1px solid var(--linha);
+    color: var(--suave); font-size: .92rem;
+  }
+  .alerta {
+    background: var(--caixa); border-left: 3px solid #b3541e;
+    border-radius: 0 8px 8px 0; padding: 1.1rem 1.3rem; margin: 0 0 1rem;
+  }
+  .alerta p:last-child { margin-bottom: 0; }
+  .sub { color: var(--suave); margin: 0 0 2.4rem; font-size: 1.05rem; }
+  .contato {
+    background: var(--caixa); border-left: 3px solid var(--destaque);
+    border-radius: 0 8px 8px 0; padding: 1.1rem 1.3rem; margin: 1rem 0 0;
+  }
+  .contato p { margin: 0; }
+  ol { padding-left: 1.3rem; }
+  ol li { margin-bottom: .6rem; }
+</style>
+
+</head>
+<body>
+<main>
+
+  <h1>Liquidação</h1>
+  <p class="sub">Atualize o valor da condenação e leve a memória de cálculo em PDF.</p>
+
+  <p>O aplicativo calcula <strong>correção monetária, juros, percentuais, custas e astreintes</strong>
+  a partir dos dados da decisão, e gera a memória de cálculo em PDF — linha por linha, com o índice
+  de cada competência.</p>
+
+  <h2>As duas abas</h2>
+  <p><strong>Cálculo</strong> — gratuita. Você preenche o formulário e a conta é feita dentro do
+  aparelho. Exibe anúncios a partir do terceiro cálculo.</p>
+  <p><strong>Cálculo com IA</strong> — por assinatura. Você joga o texto da decisão, a planilha ou o
+  PDF dos autos, e a inteligência artificial <strong>propõe</strong> os parâmetros, cada um com o
+  trecho da decisão que o gerou. Você revisa antes de qualquer conta ser feita.</p>
+
+  <h2>Índices disponíveis</h2>
+  <p>IPCA, IPCA-E, INPC, IGP-M, IGP-DI, IGP-10, INCC, Selic, taxa legal do art. 406 do Código Civil
+  e a tabela prática do TJSP. Cada um conferido contra a fonte que o publica — Banco Central,
+  Receita Federal ou Fundação Getulio Vargas.</p>
+
+  <h2>Confira sempre o resultado</h2>
+  <div class="alerta">
+    <p>O aplicativo faz a conta que você mandou fazer. <strong>Escolher o índice, o termo inicial e
+    o regime de juros é decisão jurídica sua</strong> — ele não lê os autos nem interpreta o título
+    executivo.</p>
+    <p>Na aba com inteligência artificial, a leitura da decisão é uma <strong>proposta</strong>, e
+    sistemas de IA erram. Conferir cada campo contra a decisão é parte do uso normal.</p>
+    <p><strong>É ferramenta de conferência e não substitui a verificação nos autos.</strong> A
+    responsabilidade pelo valor apresentado em juízo é de quem advoga.</p>
+  </div>
+
+  <h2>Suporte</h2>
+  <p>Dúvidas, problemas ou sugestões:</p>
+  <div class="contato">
+    <p><a href="mailto:monitordeprocessos@gmail.com">monitordeprocessos@gmail.com</a></p>
+  </div>
+
+  <h2>Documentos</h2>
+  <p><a href="privacidade/">Política de privacidade</a> · <a href="termos/">Termos de uso</a></p>
+
+  <footer>
+    Liquidação é um aplicativo independente, sem qualquer vínculo com tribunais, com o Conselho
+    Nacional de Justiça, com a Ordem dos Advogados do Brasil, com o Banco Central, com a Receita
+    Federal ou com a Fundação Getulio Vargas.
+  </footer>
+
+</main>
+</body>
+</html>
