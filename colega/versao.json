@@ -1,9 +1,9 @@
 {
-  "build": 6,
-  "versao": "1.0.5",
-  "apkUrl": "https://github.com/Destrokitor/Destrokitor.github.io/releases/download/colega-1.0.5/bots-de-ofertas-colega-1.0.5.apk",
-  "apkSha256": "fd6c867b700be3f867529b27301f1124b82e65a0bf00c6f568023fc1d6294949",
-  "servidorUrl": "https://destrokitor.github.io/colega/servidor-c51ec5ea1060.js",
-  "servidorSha256": "c51ec5ea1060977c2ecd1e0647e9987d9f0a0212c8bf671849310b28ebe46671",
-  "notas": "foto junto no botão de WhatsApp"
+  "build": 7,
+  "versao": "1.0.6",
+  "apkUrl": "https://github.com/Destrokitor/Destrokitor.github.io/releases/download/colega-1.0.6/bots-de-ofertas-colega-1.0.6.apk",
+  "apkSha256": "0526050c2b5660b2bd928fbce41826344f73622c01192d4c9737d686d1bb4dc5",
+  "servidorUrl": "https://destrokitor.github.io/colega/servidor-caf1300d113a.js",
+  "servidorSha256": "caf1300d113a7be9480318b5c2cd014100d49d6e7f777183c1da9c616fc9835a",
+  "notas": "corrige o bot que não aparecia ao usar o gerente ou um bot meu"
 }
