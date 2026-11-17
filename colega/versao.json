@@ -1,0 +1,9 @@
+{
+  "build": 5,
+  "versao": "1.0.4",
+  "apkUrl": "https://github.com/Destrokitor/Destrokitor.github.io/releases/download/colega-1.0.4/bots-de-ofertas-colega-1.0.4.apk",
+  "apkSha256": "ec729d0222c7fccb4fdeed64d357fc5e58ccc5503724de7d7d5aaedb3b05ee4e",
+  "servidorUrl": "https://destrokitor.github.io/colega/servidor-c51ec5ea1060.js",
+  "servidorSha256": "c51ec5ea1060977c2ecd1e0647e9987d9f0a0212c8bf671849310b28ebe46671",
+  "notas": "histórico de anúncios com WhatsApp e atualização automática"
+}
