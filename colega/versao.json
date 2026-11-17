@@ -1,9 +1,9 @@
 {
-  "build": 7,
-  "versao": "1.0.6",
-  "apkUrl": "https://github.com/Destrokitor/Destrokitor.github.io/releases/download/colega-1.0.6/bots-de-ofertas-colega-1.0.6.apk",
-  "apkSha256": "0526050c2b5660b2bd928fbce41826344f73622c01192d4c9737d686d1bb4dc5",
-  "servidorUrl": "https://destrokitor.github.io/colega/servidor-caf1300d113a.js",
-  "servidorSha256": "caf1300d113a7be9480318b5c2cd014100d49d6e7f777183c1da9c616fc9835a",
-  "notas": "corrige o bot que não aparecia ao usar o gerente ou um bot meu"
+  "build": 8,
+  "versao": "1.0.7",
+  "apkUrl": "https://github.com/Destrokitor/Destrokitor.github.io/releases/download/colega-1.0.7/bots-de-ofertas-colega-1.0.7.apk",
+  "apkSha256": "23760beffd46a55fc583e412f1e93f282786cd572ccf490e33a155db249636eb",
+  "servidorUrl": "https://destrokitor.github.io/colega/servidor-8083b4fcb9e1.js",
+  "servidorSha256": "8083b4fcb9e13d15bc1e96dca9634951ac31de057974dd3221cd3d8b509bed08",
+  "notas": "Só posta oferta com link de afiliado conferido; avisa ao vincular a loja; limpa o estoque ao trocar a chave; mostra ofertas descartadas."
 }
