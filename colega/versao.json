@@ -1,9 +1,9 @@
 {
-  "build": 11,
-  "versao": "1.0.10",
-  "apkUrl": "https://github.com/Destrokitor/Destrokitor.github.io/releases/download/colega-1.0.10/bots-de-ofertas-colega-1.0.10.apk",
-  "apkSha256": "b928361fa8c36563aecf750ddb50132729c2b100898918b73e73b990ca4d5a47",
-  "servidorUrl": "https://destrokitor.github.io/colega/servidor-f1e01c959fd3.js",
-  "servidorSha256": "f1e01c959fd33eafc7c0d60e10f0e999c7a4de1815809010891fb5565ea59e0d",
-  "notas": "Link curto da AliExpress sempre (nunca o comprido), com novas tentativas e sem loop; foto volta a sair; erro da loja aparece no app."
+  "build": 12,
+  "versao": "1.0.11",
+  "apkUrl": "https://github.com/Destrokitor/Destrokitor.github.io/releases/download/colega-1.0.11/bots-de-ofertas-colega-1.0.11.apk",
+  "apkSha256": "e426a4cc5589d51fbae93ca8951f1935a4d0342535587c03a4ac2f75a427cc1f",
+  "servidorUrl": "https://destrokitor.github.io/colega/servidor-84f40a11b0d7.js",
+  "servidorSha256": "84f40a11b0d72928aaffcf7856264d6b578df807749b83a76dedf681048da5d5",
+  "notas": "Espera entre chamadas à AliExpress e nova tentativa no limite de velocidade; link curto provado com chaves reais."
 }
