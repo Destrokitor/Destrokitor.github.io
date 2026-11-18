@@ -1,9 +1,9 @@
 {
-  "build": 8,
-  "versao": "1.0.7",
-  "apkUrl": "https://github.com/Destrokitor/Destrokitor.github.io/releases/download/colega-1.0.7/bots-de-ofertas-colega-1.0.7.apk",
-  "apkSha256": "23760beffd46a55fc583e412f1e93f282786cd572ccf490e33a155db249636eb",
-  "servidorUrl": "https://destrokitor.github.io/colega/servidor-8083b4fcb9e1.js",
-  "servidorSha256": "8083b4fcb9e13d15bc1e96dca9634951ac31de057974dd3221cd3d8b509bed08",
-  "notas": "Só posta oferta com link de afiliado conferido; avisa ao vincular a loja; limpa o estoque ao trocar a chave; mostra ofertas descartadas."
+  "build": 9,
+  "versao": "1.0.8",
+  "apkUrl": "https://github.com/Destrokitor/Destrokitor.github.io/releases/download/colega-1.0.8/bots-de-ofertas-colega-1.0.8.apk",
+  "apkSha256": "b0e97f764eeb2e97221974aaaa5a2e3a479ca46688bfc4ca0b40ba4cbdd59a0d",
+  "servidorUrl": "https://destrokitor.github.io/colega/servidor-96c78dcd4b47.js",
+  "servidorSha256": "96c78dcd4b473ceb49e6d04ca66456014589b4c23804637de4392ed0640fbae2",
+  "notas": "Bot que já está no grupo agora conecta o grupo ao tocar em Adicionar a um grupo."
 }
