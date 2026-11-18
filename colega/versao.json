@@ -1,9 +1,9 @@
 {
-  "build": 10,
-  "versao": "1.0.9",
-  "apkUrl": "https://github.com/Destrokitor/Destrokitor.github.io/releases/download/colega-1.0.9/bots-de-ofertas-colega-1.0.9.apk",
-  "apkSha256": "26c8b9ac4e8500de138e04aa6792b8852ccc15924fa74d1627182803c63d1011",
-  "servidorUrl": "https://destrokitor.github.io/colega/servidor-699dde31c7ca.js",
-  "servidorSha256": "699dde31c7ca81d06a5636a7c764e67b4098a0e3bc61c32002ce6020d896b157",
-  "notas": "Mostra no app por que o bot não posta (erro da loja e ofertas sem link); chamada AliExpress com v=2.0 e format=json; grupo religa ao bot atual."
+  "build": 11,
+  "versao": "1.0.10",
+  "apkUrl": "https://github.com/Destrokitor/Destrokitor.github.io/releases/download/colega-1.0.10/bots-de-ofertas-colega-1.0.10.apk",
+  "apkSha256": "b928361fa8c36563aecf750ddb50132729c2b100898918b73e73b990ca4d5a47",
+  "servidorUrl": "https://destrokitor.github.io/colega/servidor-f1e01c959fd3.js",
+  "servidorSha256": "f1e01c959fd33eafc7c0d60e10f0e999c7a4de1815809010891fb5565ea59e0d",
+  "notas": "Link curto da AliExpress sempre (nunca o comprido), com novas tentativas e sem loop; foto volta a sair; erro da loja aparece no app."
 }
