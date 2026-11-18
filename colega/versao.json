@@ -1,9 +1,9 @@
 {
-  "build": 9,
-  "versao": "1.0.8",
-  "apkUrl": "https://github.com/Destrokitor/Destrokitor.github.io/releases/download/colega-1.0.8/bots-de-ofertas-colega-1.0.8.apk",
-  "apkSha256": "b0e97f764eeb2e97221974aaaa5a2e3a479ca46688bfc4ca0b40ba4cbdd59a0d",
-  "servidorUrl": "https://destrokitor.github.io/colega/servidor-96c78dcd4b47.js",
-  "servidorSha256": "96c78dcd4b473ceb49e6d04ca66456014589b4c23804637de4392ed0640fbae2",
-  "notas": "Bot que já está no grupo agora conecta o grupo ao tocar em Adicionar a um grupo."
+  "build": 10,
+  "versao": "1.0.9",
+  "apkUrl": "https://github.com/Destrokitor/Destrokitor.github.io/releases/download/colega-1.0.9/bots-de-ofertas-colega-1.0.9.apk",
+  "apkSha256": "26c8b9ac4e8500de138e04aa6792b8852ccc15924fa74d1627182803c63d1011",
+  "servidorUrl": "https://destrokitor.github.io/colega/servidor-699dde31c7ca.js",
+  "servidorSha256": "699dde31c7ca81d06a5636a7c764e67b4098a0e3bc61c32002ce6020d896b157",
+  "notas": "Mostra no app por que o bot não posta (erro da loja e ofertas sem link); chamada AliExpress com v=2.0 e format=json; grupo religa ao bot atual."
 }
