@@ -1,9 +1,9 @@
 {
-  "build": 12,
-  "versao": "1.0.11",
-  "apkUrl": "https://github.com/Destrokitor/Destrokitor.github.io/releases/download/colega-1.0.11/bots-de-ofertas-colega-1.0.11.apk",
-  "apkSha256": "e426a4cc5589d51fbae93ca8951f1935a4d0342535587c03a4ac2f75a427cc1f",
-  "servidorUrl": "https://destrokitor.github.io/colega/servidor-84f40a11b0d7.js",
-  "servidorSha256": "84f40a11b0d72928aaffcf7856264d6b578df807749b83a76dedf681048da5d5",
-  "notas": "Espera entre chamadas à AliExpress e nova tentativa no limite de velocidade; link curto provado com chaves reais."
+  "build": 13,
+  "versao": "1.0.12",
+  "apkUrl": "https://github.com/Destrokitor/Destrokitor.github.io/releases/download/colega-1.0.12/bots-de-ofertas-colega-1.0.12.apk",
+  "apkSha256": "ce615aed475f218271e8ee1e747e392315fefa8a684240a9bd64a90cfe810d35",
+  "servidorUrl": "https://destrokitor.github.io/colega/servidor-825ada1e6d10.js",
+  "servidorSha256": "825ada1e6d10475f26609687fe6eb2d49ee303ba10cee1bf17ba8c41c488c5c5",
+  "notas": "O bot não para mais em grupo que posta muito: divide as buscas entre as ofertas, continua da página onde parou e o limite é por hora; avisa quando faltar produto novo."
 }
